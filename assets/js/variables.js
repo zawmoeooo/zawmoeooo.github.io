@@ -15,10 +15,18 @@ var mobile_menu_title = "Menu";                 //The title of the mobile menu.
 var hero_full_screen = true;                    //If true, the hero section will fit to screen size. If false, hero height will be the height of its content.
 
 //HERO BACKGROUND SLIDESHOW IMAGES
-var slidehow_images = [
-    "assets/images/slider/slide-7.jpg",
-    "assets/images/slider/slide-8.jpg",
-    "assets/images/slider/slide-9.jpg"
+var slideLimit = 3;
+var slidehow_images = [];
+var slidehow_images_Port = [
+    "assets/images/slider/side_pro_3.jpg",
+    "assets/images/slider/side_pro_4.jpg",
+    "assets/images/slider/side_pro_5.jpg"
+];
+
+var slidehow_images_Lan= [
+    "assets/images/slider/side_lan_1.jpg",
+    "assets/images/slider/side_lan_2.jpg",
+    "assets/images/slider/side_lan_4.jpg"
 ];
 
 //TIMELINE PARALLAX
